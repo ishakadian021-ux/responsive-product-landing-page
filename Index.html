@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+  <header id="header">
+
+    <div class="brand">
+      <img
+        id="header-img"
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200"
+        alt="Aura Brew coffee logo"
+      >
+      <span>AURA BREW</span>
+    </div>
+
+    <nav id="nav-bar">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#plans">Plans</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="hero-content">
+        <p class="eyebrow">CRAFTED FOR YOUR MOMENT</p>
+        <h1>Great coffee.<br><span>Better mornings.</span></h1>
+        <p class="hero-text">
+          Discover carefully roasted coffee delivered fresh to your door.
+          Simple, bold, and made for people who appreciate the little things.
+        </p>
+
+        <a class="hero-button" href="#plans">Explore Plans</a>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="experience" class="experience">
+      <div class="section-heading">
+        <p class="eyebrow">THE AURA EXPERIENCE</p>
+        <h2>From bean to beautiful.</h2>
+        <p>
+          See how we transform carefully selected beans into your next
+          favorite cup.
+        </p>
+      </div>
+
+      <div class="video-wrapper">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/8m3f1T0V5M0"
+          title="Coffee preparation video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="feature-card">
+        <span class="feature-icon">☕</span>
+        <h3>Freshly Roasted</h3>
+        <p>
+          Every batch is roasted in small quantities to preserve its
+          character and freshness.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-icon">🌱</span>
+        <h3>Thoughtfully Sourced</h3>
+        <p>
+          We partner with growers who care about quality, people, and
+          responsible farming.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-icon">📦</span>
+        <h3>Delivered Fresh</h3>
+        <p>
+          Your coffee is packed shortly after roasting and shipped directly
+          to your doorstep.
+        </p>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="plans" class="plans">
+      <div class="section-heading">
+        <p class="eyebrow">CHOOSE YOUR ROUTINE</p>
+        <h2>A plan for every coffee lover.</h2>
+      </div>
+
+      <div class="pricing-container">
+
+        <article class="price-card">
+          <h3>Morning</h3>
+          <p class="price">₹699 <small>/ month</small></p>
+          <p>250g freshly roasted coffee delivered monthly.</p>
+          <a href="#subscribe">Choose Plan</a>
+        </article>
+
+        <article class="price-card featured">
+          <div class="popular">MOST POPULAR</div>
+          <h3>Daily Ritual</h3>
+          <p class="price">₹1,199 <small>/ month</small></p>
+          <p>500g of premium coffee delivered every month.</p>
+          <a href="#subscribe">Choose Plan</a>
+        </article>
+
+        <article class="price-card">
+          <h3>Household</h3>
+          <p class="price">₹1,899 <small>/ month</small></p>
+          <p>1kg of premium coffee for serious coffee enthusiasts.</p>
+          <a href="#subscribe">Choose Plan</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Email Signup -->
+    <section id="subscribe" class="subscribe">
+      <div>
+        <p class="eyebrow">STAY IN THE LOOP</p>
+        <h2>Your next great cup starts here.</h2>
+        <p>
+          Join our list for new roasts, brewing tips, and occasional
+          coffee-inspired surprises.
+        </p>
+      </div>
+
+      <form
+        id="form"
+        action="https://www.freecodecamp.org/email-submit"
+        method="post">
+
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        >
+
+        <input
+          id="submit"
+          type="submit"
+          value="Join Aura Brew"
+        >
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Aura Brew. Crafted with care.</p>
+  </footer>
+$0
+
+</body>
+
+</html>
